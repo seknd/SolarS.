@@ -1,0 +1,295 @@
+body {
+background: linear-gradient(90deg, #0A0529 0%, #0E055D 66%, #25204E 100%);
+    /*background-color: black;*/
+}
+.heding {
+    border: solid 0px black;
+    background: linear-gradient(90deg, #000 19%, #241433 57%, #250538 85%, #2F0E46 100%, #2F0E46 100%);
+    width: 100%;
+    padding: 20px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: fixed;
+    top: -25px;
+    left: -2px;
+}
+
+.bottom{
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    border: 0;
+    width: 100%;
+    background-color: rgb(47, 192, 47);
+    padding: 5px;
+    padding-bottom: 30px;
+    color: rgb(17, 15, 15);
+    bottom: -45px;
+    left: -10px;
+}
+
+.BI{
+    margin-top: 100px;
+    color: aliceblue;
+    font-size:xx-large;
+    margin-left: 8%;
+}
+
+.S{
+    margin-top: -3%;
+}
+
+.btn {
+    background: none;
+    text-align: center;
+    border: solid 5px black;
+    border-radius:35px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgb(70, 4, 78);
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+
+}
+
+
+button:hover {
+    border: solid 5px rgb(70, 4, 78);
+    color: rgb(70, 4, 78);
+    transform: translateY(-10px);
+    background-color: black;
+    
+
+}
+
+.zaciatok{
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.p1 {
+    margin-top: 3%;
+    color: aliceblue;
+    text-align: left;
+    
+
+}
+
+.p2 {
+    color: aliceblue;
+    text-align: left;
+    margin-bottom: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    animation-name: slideinleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+.p3 {
+    animation-name: slideinright;
+}
+
+button {
+    color: #0A0529;
+    border: solid rgb(46, 6, 34);
+    background: rgb(0, 0, 0);
+    color: rgb(46, 6, 34);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.LRM {
+    background: none;
+    text-align: center;
+    border: solid 5px black;
+    border-radius: 35px;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgb(70, 4, 78);
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    float: left;
+}
+
+.solar {
+    display: block;
+    width: 100%;
+    height: 800px;
+    border-radius: 25px;
+    float: left;
+    margin-bottom: 3%;
+    animation-name: obraz;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    
+}
+
+.h12{
+    border: solid 0px black;
+        background-color: #0A0529;
+        padding: 0x;
+        border-radius: 30px;
+        padding-left: 3%;
+        margin-left: 35%;
+        margin-right: 35%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        border-left: 1px dotted;
+        border-right: 1px dotted;
+        
+}
+
+
+
+
+
+/*.lavo {
+      float: left;
+      margin-left: 2.5%;
+    animation-name:slideinright ;
+        
+  }
+
+  .pravo {
+    float: right;
+    animation-name: slideinleft; 
+  }*/
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.merkur {
+    border-radius: 70%;
+    margin-left: 10%;
+    float: left;
+    width: 250px;
+}
+.slnko{
+    width: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+
+}
+
+  .planeta {
+    color: aliceblue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.NVP{
+    text-align: left;
+    font-size: xx-large;
+    margin-left: 5%;
+}
+
+.TVP{
+    margin-right: 1px;
+    margin-left: 40%;
+    text-align: left;
+    margin-top: 10%;
+}
+.BVP{
+    background: none;
+    text-align: center;
+    border: solid 5px black;
+    border-radius: 35px;
+    align-items: center;
+    margin-left:80%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    color: rgb(70, 4, 78);
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+}
+
+.SS{
+    position: fixed;
+    width: 50px;
+    top: 10px;
+    left: 20px;
+}
+.GPT{
+    position: fixed;
+    width: 50px;
+    top: 10px;
+    right: 20px;
+    border-radius: 25%;
+}
+
+
+.PP{
+    margin-top: 5%;
+}
+
+@keyframes slideinleft {
+    from {
+        transform: TranslateX(-200px)
+    }
+
+    to {
+        transform: TranslateX(0)
+    }
+}
+
+@keyframes slideinright {
+    from {
+        transform: TranslateX(200px)
+    }
+
+    to {
+        transform: TranslateX(0)
+    }
+}
+
+@keyframes obraz {
+    from {
+        transform: translateY(300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
