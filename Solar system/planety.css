@@ -1,0 +1,153 @@
+body{
+    /*background: linear-gradient(90deg, #0A0529 0%, #0E055D 66%, #25204E 100%);*/
+    background-color: black; 
+}
+    
+.planeta2 {
+    padding-bottom: 7%;
+}
+
+.solar{
+    float: left;
+
+}
+
+.btn{
+    background: none;
+    text-align: center;
+    border: solid 5px black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(70, 4, 78);
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease ;
+    transition-delay:0.1s ;
+    
+}
+
+.btn2 {
+    margin-left: 46%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button:hover {
+    border: solid 5px rgb(70, 4, 78);
+    color: rgb(70, 4, 78);
+    transform: translateY( -10px);
+    background-color: black;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;   
+}
+
+
+
+.merkur{
+    border-radius: 70%;
+}
+
+.h1 {
+    border: solid 0px black;
+    padding: 0x;
+    border-radius: 30px;
+    padding-left: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+    }
+ 
+    .lavo {
+      float: left;
+      margin-left: 2.5%;
+    animation-name:slideinright ;
+        
+  }
+
+  .pravo {
+    float: right;
+    animation-name: slideinleft; 
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .planeta {
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 3%;
+    border-radius: 25px;
+    margin-top: 5%;
+    text-align: center;
+    color: aliceblue;
+    width: 40%;
+    height: 500px;
+    margin-left: 2.5%;
+
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    
+     
+  }
+
+  @keyframes obraz {
+      from {
+          transform: translateY(300px);
+      }
+
+      to {
+          transform: translateX(0);
+      }
+    }
+
+  @keyframes slideinleft {
+      from {
+          transform: TranslateX(-500px)
+      }
+
+      to {
+          transform: TranslateX(0)
+      }
+  }
+
+  @keyframes slideinright {
+      from {
+          transform: TranslateX(500px)
+      }
+
+      to {
+          transform: TranslateX(0)
+      }
+  }
+
+  @keyframes dialog {
+      form {
+          transform: translateY(1000%);
+
+      }
+
+      to {
+
+          transform: translatex(50%);
+          transform: translateY(20%)
+      }
+    }
