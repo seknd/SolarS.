@@ -264,7 +264,9 @@ button {
     margin-top: 5%;
 }
 
-
+.black{
+    color: black;
+}
 
 @keyframes slideinleft {
     from {
